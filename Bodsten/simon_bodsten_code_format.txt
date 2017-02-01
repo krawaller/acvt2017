@@ -8,4 +8,13 @@ The separation between objects and attributes is classified by ,
 ^AQUARIUM *SAND:10|FINE|*, *FISHES:10|SMALL|*, *FISHES:5|BIG|*, *PLANTS|GREEN|*^
 
 
+In XML:
+<?xml version="1.0"?>
+<AQUARIUM fill="SAND" vikt="10" quality="FINE">
+  <animal small="small fishes" amount="10"></animal>
+  <animal big="big fishes" amount="5"></animal>
+  <plants sort="GREEN"></plants>
+</AQUARIUM>
+
+
 
