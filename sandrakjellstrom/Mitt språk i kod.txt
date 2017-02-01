@@ -1,1 +1,2 @@
-|Familj K:k+K:m ; Å:45+Å:55. .. Barn1 K:m; Å:28 . Barn2 K:k; Å:24|
+|"FAMILJ".."BARN1"K:m."BARN2"K:k|
+
