@@ -1,4 +1,9 @@
 
-!Mamma "Anna" b(Son@ "Johan")k(Dotter@ "Cecilia")b!
+!Mamma @"Anna" b(Son@ "Johan")k(Dotter@ "Cecilia")b!
 
 Objektet Mamma heter Anna och hon har två attribut: en son och en dotter. Sonen har värdet Johan, Dottern har värdet Cecilia. Mamma har själv ett värde och det är Anna.
+! omfamnar hela familjen med head mamma och body sonen och dotter.
+" " Är objektens beskrivningar.
+b används för att omfamna bodyn - barnen alltså dotter och son
+( ) används för att omfamna attributen son och sotter
+@ används som ett skiljetecken för att beskriva attributen mamma, son och dotters värde, d.v.s. deras namn.
