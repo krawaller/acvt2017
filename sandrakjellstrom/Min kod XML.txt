@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+
+<familj>
+	<Barn1 kön="m"> </Barn1>
+	<Barn2 kön="k"> </Barn2>
+
+</familj>
