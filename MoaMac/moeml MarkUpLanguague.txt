@@ -1,0 +1,14 @@
+moeml - Mitt egna markup language
+
+Objekt avgränsas {}
+Typen anges genom att skriva namnet {bok}
+Attributen anges genom hashtag {bok#titel#antalsidor}
+Attributen kan ha värden {bok#titel:Moa#antalsidor#1000}
+Objektet kan ha "barn" {bok#titel:Moa#antalsidor#1000[{övningsbok#antalsidor:100}]}
+
+PMS (Pyramid Markup Script):
+Objekt avgränsas av	/\/\
+Typen anges genom att skriva namnet ex:/\fruktkorg/\
+Attributen avgränsas av	 ||	ex: /\fruktkorg|size|pris|/\
+Attributen kan ha värden ex: /\fruktkorg|size:stor|pris:100|/\
+Barn till objektet avgränsas av ^^ ex: /\fruktkorg|size:stor|pris:100|^/\äpple|smak:söt|färg:gul/\^/\
