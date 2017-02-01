@@ -1,0 +1,28 @@
+Obejkt: Familj 
+attribut: kön = K:k+K:m
+attributvärde: ålder = Å:45 + Å:55
+
+Objekt: barn1
+attribut: kön = K:k
+attributvärden:= Å:24.
+
+
+objekt: barn2
+attribut: kön= K:m.
+attributvärden: = Å
+
+//Kommentar
+K: //Attributet Kön
+k=kvinna
+m=man
+Å: //Attributvärdet ålder
++ //Skiljer på två olika attribut och attributvärden
+; //Skiljet mellan attribut och värden.
+- //Skiljer mellan objekt och två attribut + värden
+. //Skiljetecken mellan olika objekt
+.. //Här får objektet barn
+Attributvärde //Ålder
+Obejkt //Person
+| | //Början och slut på min kod
+
+
