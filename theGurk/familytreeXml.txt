@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<familj>
+<gustav id="♂">
+<dad id="♂">
+<granpa id="♂"></granpa>
+<grandma id="♀"></grandma>
+</dad>
+<mum id="♀">
+<grandpa id="♂"></grandpa>
+<grandma id="♀"></grandma>
+</mum>
+</gustav>
+</familj>
