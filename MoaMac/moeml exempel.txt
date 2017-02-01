@@ -1,3 +1,10 @@
 
 
-Mitt familjeträd
+Exempel moeml
+
+{Farmor#namn:Janet#ålder:80[{Son#namn:Peje#ålder:60}{Son#namn:Lars#ålder#58[Dotter#namn:Moa#ålder:26]}]}
+
+Ett objekt av typen "farmor" innehåller två andra objekt av typen "Son". 
+Ett av "Son"-objekten innehåller ett objekt av typen "Dotter".
+Varje objekt har de två attributen "namn" och "ålder".
+
