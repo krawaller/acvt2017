@@ -12,4 +12,4 @@ Lättläsligt.. nej.
 ------------------------------------------------------------
 <basket£price@15$¤<apple£price@8$><banana£price@9$>%>
 
-<SoccerTeam£Skill@1337$!£League@Adults$¤<playerOne£name@Max$£cost@50$><playerTwo£name@Bertil$£cost@40$><playerThree£Dead$>%>
+<SoccerTeam£Skill@1337$!£League@Adults$¤<player£name@Max$£cost@50$><player£name@Bertil$£cost@40$><player£Dead$>%>
