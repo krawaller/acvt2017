@@ -1,0 +1,27 @@
+
+
+-grandpa- = * name = !Mary: occupation = !retired: hobby = !watching_tv *
+-dad- = * name = !Steve: occupation = !firefighter: hobby = !dancing *
+-uncle- = * name = !Stue: occupation = !developer: hobby = !fishing *
+
+-me- = * name = !Adam: occupation = !student: hobby = !soccer *
+-brother- = * name = !Lue: occupation = !firefighter: hobby = !swimming *
+-Sister- = * name = !Stina: occupation = !police: hobby = !driving *
+
+-cousin1- = * name = !Lisa: occupation = !Hairdresser: hobby = !horses *
+-cousin2- = * name = !Anders: occupation = !taxidriver: hobby = !fishing *
+
+-family- = * -grandpa- <| -dad- <| -me- | -brother- | -sister- > | -uncle- <| -cousin1- | -cousin2- >> *
+
+-family- = * -grandpa- = * name = !Mary: occupation = !retired: hobby = !watching_tv * <| -dad- = * name = !Steve: occupation = !firefighter: hobby = !dancing * <| -me- = * name = !Adam: occupation = !student: hobby = !soccer * | -brother- = * name = !Lue: occupation = !firefighter: hobby = !swimming * | -Sister- = * name = !Stina: occupation = !police: hobby = !driving * > | -uncle- = * name = !Stue: occupation = !developer: hobby = !fishing * | -cousin1- = * name = !Lisa: occupation = !Hairdresser: hobby = !horses * | -cousin2- = * name = !Anders: occupation = !taxidriver: hobby = !fishing **
+
+to initiate an object: -objectName-
+dict for object is dynamic, starts and ends with *. 
+key and valuepair: key = !value :
+! equals null, if there is some character after ! that is the keys value.
+: separates key and valuepairs from each other
+_ is widespace
+
+<| for child object.
+| for object on same "level".
+> for closing child object.
