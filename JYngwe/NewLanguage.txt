@@ -22,3 +22,11 @@ Example:
 >
 
 \
+
+XML
+
+<?xml version="1.0"?>
+<Father role="comedian">
+<Son role="audience"></Son>
+<Daughter role="critique"><PetHamster role="poop"></PetHamster></Daughter>
+</Father>
