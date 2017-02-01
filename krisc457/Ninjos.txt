@@ -1,0 +1,3 @@
+|Ninja[snabbhet = 100: tysthet = 100: skugga]{eventuellt barn[snabbhet:tyshet:skugga?]}|
+
+|-Ninja-[snabbhet=100:tysthet=100:skugga]{-Ninjo-[snabbhet=65:tysthet=75]{-Ninjanama-[snabbhet=20:tysthet=15:skugga]}}|
