@@ -1,0 +1,6 @@
+﻿Patrik E
+
+Man öppnar objekt med ☕-tecken och stänger med ❌. Man inkapslar sedan attribut inom ☛☚. 
+Du kan lägga till ett barn genom att öppna ännu ett objekt med ☕-tecken före du stängt föregående.
+
+☕Språk☛true☚☕Java☛true☚❌☕JavaScript☛true☚❌☕Danska☛false☚❌❌
