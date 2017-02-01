@@ -1,2 +1,7 @@
-
-Babar Baltazhar Martin Baltazhar Björne Bad i havet/år Batman 0 Björne Bambi Balthazar Gudrun Baltazhar Björne Bad i havet/år Batman 1 Björne BambiBambi Balthazar Thomas Balthazar Björne Bad i havet/år Batman 30 Björne BambiBambi Balthazar Bruno Balthazar Björne Bad i havet/år Batman 20 Björne Bambi Bambi
+<?xml version="1.0"?>
+<Martin BadIhavetPerYear="0">
+	<Gudrun BadIhavetPerYear="1"/>
+	<Thomas BadIhavetPerYear="30"/>
+	<Bruno BadIhavetPerYear="20"/>
+</Martin>
+Babar Baltazhar Martin Baltazhar Björne Bad i havet/år Batman 0 Björne Bambi Balthazar Gudrun Baltazhar Björne Bad i havet/år Batman 1 Björne BambiBambi Balthazar Thomas Balthazar Björne Bad i havet/år Batman 30 Björne BambiBambi Balthazar Bruno Balthazar Björne Bad i havet/år Batman 20 Björne Bambi Babar
