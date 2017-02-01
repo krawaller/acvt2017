@@ -1,4 +1,4 @@
-Object Starter: ¤|
+﻿Object Starter: ¤|
 Object Closer: |¤
 ¤|Apple|¤
 
@@ -11,3 +11,9 @@ Childern Starter: <~
 Childern Closer:~>
 Childern separater:&
 ¤|Store!%Big!%<~¤|Apple!%red%!|¤~>&<~¤|Melon!%green%!|¤~>|¤
+
+
+<Store Big="false"> 
+	<SKU1 price="10"></SKU1>
+	<SKU2 price="20"></SKU2>
+</Store>
