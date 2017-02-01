@@ -1,0 +1,20 @@
+NpreiMD
+
+Encode object with <| and |>
+	Ex. <|object1|> <|object2|><|object2|>'
+	
+List attribute inside -., ,.-
+	Ex. <|object1 -.,attribute0|>
+ 
+use _ to seperate attribute and value (if there is a value)
+	Ex. <|object1 -.,attribute0_5|>
+	Ex. <|object1 -.,attribute1_10|>
+ 
+use | to seperate between different attributes
+	Ex. <|object1 -.,attribute0_5|attribute1_10,.-|>
+	
+List children inside "! and !" after the type attributes (seperator is the same as for attributes)
+
+	Ex. <|SuperObject1"!<|object1 -.,attribute0_5|attribute1_10,.-|>"!|>
+
+	
