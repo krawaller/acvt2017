@@ -11,7 +11,8 @@ ett objekt som är barn till det yttre objektet.
 
 För att det hela ska vara mer tydligt och läsbart så kan man indentera barnobjekten inne i föräldraobjektet. Se kodexemplet ovan.
 
+<?xml version="1.0"?>
 <kingslanding rang="regering" statskick="regim" regent="Joffrey">	
-	<winterfell rang="provins" geografi="norr" regent="Tortyrsnubben></winterfell>
+	<winterfell rang="provins" geografi="norr" regent="Tortyrsnubben"></winterfell>
 	<casterlyrock rang="provins" geografi="norr" regent="Lanisters"></casterlyrock> 
 </kingslanding>
