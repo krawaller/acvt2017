@@ -1,0 +1,11 @@
+[Sverige{Skåne{Lund,invånare:87244}},{Västra Götaland{Göteborg,inånare:491 630}}]
+
+
+Här beskriver jag Sverige som min Objekttyp, jag döper den till Sverige.
+I detta fallet har jag valt att beskriva två län i Sverige (två barn i familjen.)
+Skåne & Västra Götaland.
+Jag väljer att fokusera på en stad i varje län.
+Lund & Göteborg.
+Sedan beskriver jag hur många invånare som finns i varje stad.
+ 
+
