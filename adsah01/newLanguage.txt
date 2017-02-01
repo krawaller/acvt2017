@@ -25,3 +25,18 @@ _ is widespace
 <| for child object.
 | for object on same "level".
 > for closing child object.
+
+
+<?xml version="1.0"?>
+<grandpa name="Martin" occupation="retired" hobby="Watching tv">
+<dad name="Steve" occupation="firefighter" hobby="dancing">
+<me name="adam" occupation="firefighter" hobby="dancing">
+</me>
+<brother name="Steve" occupation="firefighter" hobby="dancing"></brother>
+<sister name="Lisa" occupation="firefighter" hobby="dancing"></sister>
+</dad>
+<uncle name="John" occupation="firefighter" hobby="farting">
+<cousin1 name="Steve" occupation="firefighter" hobby="dancing"></cousin1>
+<cousin2 name="Anders" occupation="firefighter" hobby="fishing"></cousin2>
+</uncle>
+</grandpa>
