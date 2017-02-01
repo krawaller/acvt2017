@@ -1,0 +1,4 @@
+
+!Mamma "Anna" b(Son@ "Johan")k(Dotter@ "Cecilia")b!
+
+Objektet Mamma heter Anna och hon har två attribut: en son och en dotter. Sonen har värdet Johan, Dottern har värdet Cecilia. Mamma har själv ett värde och det är Anna.
