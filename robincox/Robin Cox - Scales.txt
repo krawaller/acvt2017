@@ -1,0 +1,14 @@
+Hur bra (1 - 10) jag känner mig på:
+
+HTML: 4
+CSS: 4
+JS: 3
+Webtech curiosity: 5
+
+Har arbetat med HTML, CSS och JavaScript från ca. 2008-2012 så jag har väl lite förkunskaper
+men har nog glömt mycket och de kan vara ganska outdated. Jag har t.ex. inte några kunskaper i HTML 5.
+
+Innan jag började den här Javautbildningen så trodde jag att arbetsmarknaden inte var speciellt
+"het" för webbutvecklare medan den var "stekhet" för Java- och C# utvecklare. Därav var inte mitt
+webtechintresse så stort (ca. 2) men under kursen har den siffran höjts då ni lärare har givit mig en annan
+bild för hur "hett" webbutveckling är.
