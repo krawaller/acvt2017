@@ -1,4 +1,4 @@
-
+﻿
 
 how to encapsulate an object:
 		*†	
@@ -17,12 +17,17 @@ how to express children
 		
 Example:
 		
-*Marianne @Age=86; Haircolor=Grey@
-	*Åsa @Haircolor=red@
+*Marianne @Age=86; Hair color=Grey@
+	*Åsa @Hair color=red@
 		*Max @Likes=html more than his own code@ †
 		*Lukas †
 	†
 † 
 
+Example in XML:
 
-
+<Marianne age="86" hairColor="grey">
+	<Åsa hairColor="red"></Åsa>
+		<Max likes="Html more than his own code"></Max>
+		<Lukas></Lukas>
+</Marianne>
