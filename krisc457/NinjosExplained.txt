@@ -1,0 +1,16 @@
+Ninja
+Ninjo
+Ninjanama
+
+Så här ser "familjeträdet" ut och det är i kronologisk ordning där den äldsta individen är längst upp.
+Ninja är alltså pappa (det är ett släktträd med enbart män) till Ninjos som i sin tur är pappa till Ninjana. Ninja är farfar
+till Ninjanama.
+Jag beskriver tre generationer med Ninja först i min kod.
+
+"| |"- sätter start och slut för mitt "objekt". Ska följas av objektnamnet.
+"- -"  - ger start och slut för namnet på objektet.
+"[]" - kapslar in de olika attribut som objektet har.
+attribut - snabbthet och tysthet kan tilldelas värden. Skugga är en binär egenskap som ofta är medfödd.
+"{}" - kapslar in eventuella barn som objektet har. Finns det flera barn ska de åtskiljas med ":". Det går att ge ett barn till
+	 ett barn och på sätt visa tre generationer. 
+
