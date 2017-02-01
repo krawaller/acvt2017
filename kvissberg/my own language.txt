@@ -1,0 +1,28 @@
+
+
+how to encapsulate an object:
+		*†	
+how to express object type:
+		String
+how to express attributes, with and without values, and separation of all
+		@ String @ 	
+	with value
+		= String
+	separation
+		;
+how to express children
+		*
+			* †
+		†
+		
+Example:
+		
+*Marianne @Age=86; Haircolor=Grey@
+	*Åsa @Haircolor=red@
+		*Max @Likes=html more than his own code@ †
+		*Lukas †
+	†
+† 
+
+
+
