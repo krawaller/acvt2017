@@ -1,4 +1,4 @@
-Motiveringen till min design är att alla tecken ska kunna skrivas med vänster handen.
+﻿Motiveringen till min design är att alla tecken ska kunna skrivas med vänster handen.
 Nedan visas vilka hur mitt språk fungerar och sedan några exempel.
 Ingen separator behövs.
 Lättläsligt.. nej.
@@ -13,3 +13,21 @@ Lättläsligt.. nej.
 <basket£price@15$¤<apple£price@8$><banana£price@9$>%>
 
 <SoccerTeam£Skill@1337$!£League@Adults$¤<player£name@Max$£cost@50$><player£name@Bertil$£cost@40$><player£Dead$>%>
+
+in XML:
+<?xml version="1.0"?>
+<basket>
+	<apple price="8"/>
+	<banana price="9"/>
+</basket>
+
+
+<?xml version="1.0"?>
+<SoccerTeam skill="1337" league="adults">
+	<player name="Max" cost="50"/>
+	<player name="Bertil" cost="40"/>
+	<player dead=""/>
+</SoccerTeam>
+
+	
+	
