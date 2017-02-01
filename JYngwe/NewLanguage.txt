@@ -1,0 +1,24 @@
+Rules: 
+Encapsulate object =	/ \
+Typ = 					within object 	i.e /apple\
+Attribute = 			- - 			i.e /apple-green-\
+	Attribute value =	.				i.e /apple-taste.good-\ 
+Children = 				< >				i.e /fruit-brown-<apple-taste.good-\
+
+Example:
+
+/ Father
+-role.comedian-
+<Son
+-role.audience-
+
+>
+<Daughter
+-role.critique-
+
+<PetHamster
+-role.poop-
+>
+>
+
+\
