@@ -27,3 +27,12 @@ e.g utan atribut &atributvärde
 Om objekt har barn deklareras detta med ":" före barnen och den avslutande"]" på föräldraobjektet läggs efter alla barnen har deklarerats. Raden avslutas med ";"
 e.g
 [Car=myCar, (make,Ford): [Wheel=frontwheel, (threaddeept,0.2]];
+
+
+-XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML-
+<?xml version="1.0"?>
+
+<farfar alder="90" kon="man">
+	<far alder="57" kon="man"></far>
+	<jag alder="28" kon="man"></jag>
+</farfar>
