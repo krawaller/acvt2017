@@ -1,0 +1,22 @@
+
+
+¤ - Påbörjar och avslutar objektet
+$ - Innehåller attribut
+| - tecknet för ett nytt objekt
+= - tilldelar värdet
+
+
+
+	¤familj$mamma=grek$|$pappa=indier$¤
+
+
+	
+	
+	
+	
+	 
+	
+	
+
+	
+	 
