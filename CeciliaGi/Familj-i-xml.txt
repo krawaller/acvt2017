@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<mother name="Anna">
+	<son name="Johan"></son>
+	<daughter name="Cecilia"</daughter>
+</mother>
