@@ -1,0 +1,13 @@
+Object Starter: ¤|
+Object Closer: |¤
+¤|Apple|¤
+
+attributes Starter: !%
+attributes Closer: %!
+attributes separater: /
+¤|Apple!%Yjummi!%/!%red!%|¤
+
+Childern Starter: <~
+Childern Closer:~>
+Childern separater:&
+¤|Store!%Big!%<~¤|Apple!%red%!|¤~>&<~¤|Melon!%green%!|¤~>|¤
