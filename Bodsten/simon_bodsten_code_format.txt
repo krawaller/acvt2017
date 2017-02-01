@@ -1,0 +1,11 @@
+The parent object is classified by ^
+The children object is classified by  *
+The characteristics (attributes) of an object is classified by |
+
+The separation betwwen objects and and their attributes is classified by :
+The separation between objects and attributes is classified by ,
+
+^AQUARIUM *SAND:10|FINE|*, *FISHES:10|SMALL|*, *FISHES:5|BIG|*, *PLANTS|GREEN|*^
+
+
+
