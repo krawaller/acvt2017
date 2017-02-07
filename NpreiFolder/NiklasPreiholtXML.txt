@@ -3,6 +3,6 @@
 <Farfar class="Engineer" specialty="Drawing">
 <Far class="Engineer" specialty="Carpentry">
 <Me class="ITstudent" specialty="Gameproficiency">
-</Farfar>
-</Far>
 </Me>
+</Far>
+</Farfar>
