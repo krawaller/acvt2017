@@ -1,0 +1,5 @@
+Jag heter Thomas Saurén, är 35 år och har ett förflutet inom tv och reklam.
+Nu siktar jag på att ta mig in i en helt ny värld av programmering, vilket jag ser fram emot med spänning.
+Mina förkunskaper inom Html, css och javascript är 1 på en skala 1-10.
+Men min nyfikenhet på webtech är fan 12!
+/ Thomas

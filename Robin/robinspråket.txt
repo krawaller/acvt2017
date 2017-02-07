@@ -1,0 +1,19 @@
+﻿Object Starter: ¤|
+Object Closer: |¤
+¤|Apple|¤
+
+attributes Starter: !%
+attributes Closer: %!
+attributes separater: /
+¤|Apple!%Yjummi!%/!%red!%|¤
+
+Childern Starter: <~
+Childern Closer:~>
+Childern separater:&
+¤|Store!%Big!%<~¤|Apple!%red%!|¤~>&<~¤|Melon!%green%!|¤~>|¤
+
+
+<Store Big="false"> 
+	<SKU1 price="10"></SKU1>
+	<SKU2 price="20"></SKU2>
+</Store>

@@ -1,0 +1,18 @@
+OBJ<Kingslanding;rang=regering,statsskick=regim,regent=Joffrey; 
+	OBJ<Winterfell;rang=provins,geografi=norr,regent=Tortyrsnubben> 
+	OBJ<Casterly Rock;rang=provins,geografi=norr,regent=Lanisters>
+>
+
+Varje objekt inleds med "OBJ<typ>", inanför krokodilen skriver man vilken typ objektet är.
+Denna kan sedan utökas med att lägga till attribut till objektet "OBJ<typ;attribut,attribut;OBJ<barn> OBJ<barn>>.
+Typ attribut och barn skiljs åt med tecknet ";", om man har flera attribut kan de skiljas åt med tecknet ",".
+Barnen behöver ej åtskiljas med kommatecken då varje OBJ<>-tag efter attributen tydligt markerar att vi pratar om
+ett objekt som är barn till det yttre objektet. 
+
+För att det hela ska vara mer tydligt och läsbart så kan man indentera barnobjekten inne i föräldraobjektet. Se kodexemplet ovan.
+
+<?xml version="1.0"?>
+<kingslanding rang="regering" statskick="regim" regent="Joffrey">	
+	<winterfell rang="provins" geografi="norr" regent="Tortyrsnubben"></winterfell>
+	<casterlyrock rang="provins" geografi="norr" regent="Lanisters"></casterlyrock> 
+</kingslanding>

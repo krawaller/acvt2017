@@ -1,0 +1,24 @@
+Jag använder olika färgkoder i hexadecimal form i min kod.
+En öppnare motsvaras alltid av den färgens komplementfärg, alltså den rakt motsatta i ett färghjul.
+
+börja objekt = röd
+sluta objekt = cyan
+
+börja attribut = grön
+sluta attribut = lila
+
+blå = börja barn
+gul = sluta barn
+
+vit = mellan attribut och dess värde
+svart = mellan olika attribut och mellan olika barn
+
+Stora F och noll går inte att använda.
+
+FF0000Peter00FF00könFFFFFFman000000sportFFFFFFgolfFF00FF0000FFFF0000Robin00FF00könFFFFFFman000000sportFFFFFFingenFF00FF00FFFFFF0000Jonatan00FF00könFFFFFFman000000sportFFFFFFingenFF00FF00FFFF00FFFF
+
+<?xml version="1.0"?>
+<Peter kön="man" sport="golf">
+    <Robin kön="man" sport="ingen" />
+    <Jonathan kön="man" sport="ingen" />
+</Peter>

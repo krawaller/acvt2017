@@ -1,0 +1,7 @@
+<< >>     dividers for objects, put the object type inside
+ / /      classifies attributes, (with or without a value). List the attributes inside / / after the type
+ |        separate the attribute and values using |
+ ~        use ~ to separate between different attributes
+ []       list children inside [] after the type and attributes
+
+<<family/members|3/[<<grandmother/name|Ingrid~age|90/[<<daughter/name|Birgitta~age|58/>><<son/name|Janne~age|65/>><<son/name|Helena~age|62/>>]>>]>>

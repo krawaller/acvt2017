@@ -1,0 +1,29 @@
+..:: MUL - Make Up Language ::..
+
+Every object begins with an [at sign] followed by the type name which ends with [paranthesis]:
+@type(...)
+
+If the object lacks attributes a [semicolon] has to be between the [paranthesis]:
+@type(;)
+
+Attributes are put inside the [paranthesis] where the name of the attribute is followed by a [equal sign] followed by the value and finally a [semicolon]. This repeats for each attribute (and if the object lacks children then this is it):
+@type(attribute=value; attribute2=value2;)
+
+If the object contains children then the child objects will be put after the parent object within [curly braces] separated by a [semicolon]:
+@type(...){@childType(...){@grandChild(...)}; @childType2(...)}
+
+Example of an object with two attributes and two child objects with one attribute each:
+@type(attribute=value; attribute2=value2;){@childType(attribute=value;);@childType2(attribute=value;)}
+
+The following characters have special meanings in MUL: @ ( ) = ; { }
+
+:: Example of a set of nested objects ::
+
+@grandfather(favouriteColor=green){
+	@mother(favouriteColor=turqoise){
+		@son1(favouriteColor=orange); 
+		@son2(favouriteColor=red){
+			@grandson(favouriteColor=skyblue)
+		}
+	}
+}

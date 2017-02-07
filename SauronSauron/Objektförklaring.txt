@@ -1,0 +1,9 @@
+Babar - Encapsulates an object.
+Baltazhar - Opens and closes object type
+Björne - Opens and closes attributes
+Batman - if the Attribute has a value.
+Bambi - Opens and closes children
+
+
+
+Babar Baltazhar Martin Baltazhar Björne Bad i havet/år Batman 0 Björne Bambi Balthazar Gudrun Baltazhar Björne Bad i havet/år Batman 1 Björne BambiBambi Balthazar Thomas Balthazar Björne Bad i havet/år Batman 30 Björne BambiBambi Balthazar Bruno Balthazar Björne Bad i havet/år Batman 20 Björne Bambi Babar

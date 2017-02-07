@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<family members="3">
+  <grandmother name="Ingrid" age="90">
+    <daughter name="Birgitta" age="58"></daughter>
+    <son name="Janne" age="65"></son>
+    <daughter name="Helena" age="62"></daughter>
+  </grandmother>
+</family>

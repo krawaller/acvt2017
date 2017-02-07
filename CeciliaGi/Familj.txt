@@ -1,0 +1,10 @@
+
+!Mamma @"Anna" b(Son@ "Johan")k(Dotter@ "Cecilia")b!
+
+Objektet Mamma heter Anna och hon har tva attribut: en son och en dotter. Sonen har vardet Johan, Dottern har vardet Cecilia. Mamma har sjalv ett varde och det ar Anna.
+! omfamnar hela familjen med head mamma och body sonen och dotter.
+" " Ar objektens beskrivningar.
+b anvands for att omfamna bodyn - barnen alltsa dotter och son
+( ) anvands for att omfamna attributen son och sotter
+@ anvands som ett skiljetecken for att beskriva attributen mamma, son och dotters varde, d.v.s. deras namn.
+k ar skiljetecken mellan de tva olika attributen son och dotter
