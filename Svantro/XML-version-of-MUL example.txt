@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<grandfather favouriteColor="green">
-	<mother favouriteColor="turqoise">
-		<son favouriteColor="orange"/>
-		<son favouriteColor="red">
-			<grandson favouriteColor="skyblue"/>
-		</son>
-	</mother>
-</grandfather>
