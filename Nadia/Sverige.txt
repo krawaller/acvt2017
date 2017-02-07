@@ -8,3 +8,7 @@ xx = Öppnar och stänger mitt huvudobjekt.
 , = Skiljer typ från atribut.
 
 : = värdet av attributet.
+
+XML:
+
+<Sverige><Skåne><Lund invånare="87244"></Lund></Skåne><VästraGötaland><Göteborg invånare="491 630"></Göteborg></VästraGötaland></Sverige>
