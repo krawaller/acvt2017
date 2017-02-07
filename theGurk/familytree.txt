@@ -1,0 +1,9 @@
+﻿
+{familj🚼{gustav:♂🚼{dad:♂🚼{granpa:♂,grandma:♀},mum 🚼{grandpa:♂,grandma:♀}}}}
+
+{ inleder ett nytt objekt. I familjeobjektet finns ett barn som inleds med 🚼 och följs av { för att ett nytt objekt startar.
+: avskiljer för att visa vilket kön som objektet har (attribut).
+I detta fallet så har objektet gustav två barn "dad" och "mum" som ligger på samma nivå och skiljs av ",".
+Dessa har i sin tur två barn som även de skiljs av ",".
+
+
