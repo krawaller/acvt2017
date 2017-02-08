@@ -15,9 +15,6 @@ a {
   text-decoration: none;
   color: 0C 83B;
 }
-a:visited {
-  color: #0C083B;
-}
 header {
   margin: 0;
   margin-top: -25px;
@@ -32,7 +29,6 @@ h1 {
 }
 img {
   margin-top: 0;
-  display: inline-block;
 }
 main {
   width: auto;
@@ -52,6 +48,6 @@ p:first-child:first-letter {
 p {
   text-align: justify;
 }
-div {
-  display: inline-block;
+@font-face {
+  font-family: 'Roboto', sans-serif;
 }
