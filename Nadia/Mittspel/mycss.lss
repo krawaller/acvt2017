@@ -1,0 +1,21 @@
+@nadiascolor: #eaeff2;
+
+body {
+background-color: @nadiascolor;
+text-align:center;
+
+ }
+.wrapper {
+	text-align: center;
+	margin:10px auto;
+	width:50%;	
+}
+
+
+p:before {
+  content: "♫";
+  color: @nadiascolor;
+}
+p:after {
+  content: "♫"
+}
