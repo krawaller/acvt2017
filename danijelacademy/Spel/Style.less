@@ -1,0 +1,31 @@
+p {
+    color:black;
+    font-size: 16px;
+}
+body {
+  margin: auto;
+  width: 60%;
+  border: 3px solid blue;
+
+}
+
+h1{
+    color:pink;
+}
+
+img {
+  height:150 px;
+  width: 100 px;
+
+}
+
+
+//Ny less kod
+.average(@x, @y) {
+  @average: ((@x + @y) / 2);
+}
+
+body {
+  .average(16px, 50px); // "call" the mixin
+  padding: @average;    // use its "return" value
+}
