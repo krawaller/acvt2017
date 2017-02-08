@@ -4,6 +4,33 @@ body {
   width: 500px;
   margin: 0 auto;
 }
+@keyframes cycle {
+  0% {
+    background-color: #00FF00;
+  }
+  20% {
+    background-color: #FFFF00;
+  }
+  40% {
+    background-color: #FF0000;
+  }
+  60% {
+    background-color: #FF00FF;
+  }
+  80% {
+    background-color: #0000FF;
+  }
+  100% {
+    background-color: #00FF00;
+  }
+}
+a:hover {
+  animation: cycle 5s infinite;
+}
+h2:hover {
+  transform: rotate(45deg);
+  transition: transform 2s ease;
+}
 img {
   max-width: 500px;
   max-height: 300px;
@@ -28,25 +55,11 @@ img:hover {
   transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
 }
 img:active {
-  opacity: 0;
-}
-p {
-  display: block;
-}
-p:first-letter {
-  text-transform: uppercase;
+  opacity: 0.5;
 }
 a:before {
   content: "😎 ";
 }
 a:visited {
   color: green;
-  text-decoration: line-through;
-}
-a:hover {
-  color: pink;
-  cursor: all-scroll;
-}
-a:active {
-  color: khaki;
 }
