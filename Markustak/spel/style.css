@@ -27,17 +27,23 @@ header {
   background-color: #eeeef7;
 }
 h1 {
+  border: 5px solid black;
   color: 0C 83B;
   font-family: Arial;
+  display: inline-block;
+  margin-left: 20;
+  margin-top: 40px;
 }
 img {
+  width: 100%;
   margin-top: 0;
-  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
 }
 main {
-  width: auto;
+  width: 600px;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
 }
 p:first-child:first-letter {
   color: #903;
