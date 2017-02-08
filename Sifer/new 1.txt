@@ -1,0 +1,27 @@
+TCP/IP = Transport Control Protocol/Internet Protocol
+UDP/IP = User Data Protocol
+.-------------------------------------.
+|		TCP			|		UDP		  |
+
+Reliable				Unreliable	
+Built in error 			No garuantee for arrival
+correction and			Unordered
+recovery				fast		
+Ordered – packages will	gaming streams etc
+arrive in order
+
+
+LAN = Local Area Network
+WAN = Wide Area Network
+NAT = Network Address Translation
+DNS = Domain Name System, har IP adressen och skickar tillbaka den till användaren
+ISP = Internet Service Provider
+HTTP = Hypertext Transfer Protocl, verb: GET(proxy server kan ha cache) POST PUT DELETE
+URL = Universal Resource Indentifier
+
+Ports = 65535, 80 http, 8080 test site, 443 https
+1xx Informational
+2xx Success
+3xx Redirection
+4xx Client Error
+5xx Server Error

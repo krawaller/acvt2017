@@ -1,0 +1,55 @@
+@maincolor: #333;
+@textcolor: #ffda00;
+@keyframes rull {
+5% {
+	font-size: 30px;
+	}
+45% {
+	font-size: 25px; 
+	}
+66% {
+		font-size: 10 px;
+		}
+100% {
+		font-size: 16px;}
+		}
+	
+
+
+body {
+   background: @maincolor;
+	font-family: "avenir black", montserrat, avenir, "arial rounded", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	
+}
+
+h1 {
+    color: black;
+    text-align: center;
+	font-size:30px;
+	background-color: #999;
+	transition: background-color 1s ease;
+	}
+	
+h1:hover {
+	background-color:black;
+}
+
+a {
+    font-family: verdana;
+    font-size: 20px;
+	padding-right: 30px;
+	color:@textcolor;
+	animation-name: rull;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	}    
+#batman{
+	display:block;
+	margin: 0 auto;
+	}
+div >img {
+	background:black;
+}

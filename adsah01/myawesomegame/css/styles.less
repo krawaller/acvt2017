@@ -1,0 +1,105 @@
+@background-color: #8B4513;
+@body-color: #A0522D;
+@text-color: #67AF4C;
+
+@keyframes looparound {
+  0% {
+    top: 0;
+    left: -2000px;
+  }
+  25% {
+    top: 0;
+    left: 0px;
+  }
+  50% {
+    top: 0px;
+    left: 0px;
+  }
+  75% {
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: 0;
+    left: 2000px;
+  }
+}
+
+
+#animationexample > h1 {
+  position:relative;
+  width: auto;
+  height: auto;
+  animation-name: looparound;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.gradient(@color: #F5F5F5, @start: #541102, @stop: #A0522D) {
+  background: @color;
+  background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, @start),
+                               color-stop(1, @stop));
+  background: -ms-linear-gradient(bottom,
+                                  @start,
+                                  @stop);
+  background: -moz-linear-gradient(center bottom,
+                                   @start 0%,
+                                   @stop 100%);
+  background: -o-linear-gradient(@stop,
+                                 @start);
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",@stop,@start));
+}
+.circle(@size: 25px){
+  background-color: #4CAF50;
+  border-radius: 100%;
+
+  width: @size;
+  height: @size;
+}
+
+.small-circle{
+  .circle
+}
+
+.big-circle{
+.circle(750px)
+}
+h1{
+  color: @text-color;
+  font-family:Courier New, Monospace;
+  padding: 15px;
+  text-align: center;
+}
+img:hover {
+  transform: rotate(360deg);
+  transition: transform 4s ease;
+}
+p{
+  color: @text-color;
+  padding: 5px;
+}
+body{
+  .gradient;
+}
+
+b{
+  color: @text-color;
+}
+img{
+  padding: 15px;
+  .big-circle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  font-family: Century Gothic, sans-serif;
+}
+
+li{
+  color: @text-color;
+}

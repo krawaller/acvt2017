@@ -1,0 +1,91 @@
+@background-color: #ffffff;
+@text-color: #000000;
+
+body {
+  	background-color: @background-color;
+  	color: @text-color;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.box-shadow (@x: 0px, @y: 3px, @blur: 5px, @alpha: 0.5) {
+	-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
+
+.transition (@prop: all, @time: 1s, @ease: linear) {
+	-webkit-transition: @prop @time @ease;
+	-moz-transition: @prop @time @ease;
+	-o-transition: @prop @time @ease;
+	-ms-transition: @prop @time @ease;
+	transition: @prop @time @ease;
+}
+
+.transform (@rotate: 90deg, @scale: 1, @skew: 1deg, @translate: 10px) {
+	-webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+}
+
+.reflect (@length: 50%, @opacity: 0.2){
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(@length, transparent), to(rgba(255,255,255,@opacity)));
+}
+.transformer(@transform) {
+    -webkit-transform: @transform;
+    -moz-transform: @transform;
+    -ms-transform: @transform; /* note that you have @trasnform here */
+    -o-transform: @transform;
+    transform: @transform;
+}
+
+@keyframes cycle {
+  0%    { background-color: #00FF00; }
+  20%   { background-color: #FFFF00; }
+  40%   { background-color: #FF0000; }
+  60%   { background-color: #FF00FF; }
+  80%   { background-color: #0000FF; }
+  100%  { background-color: #00FF00; }
+}
+
+a:hover {
+  animation:  cycle 5s infinite;
+}
+
+h2:hover {
+  	transform: rotate(45deg);
+    transition: transform 2s ease;
+}
+
+img {
+	max-width: 500px;
+	max-height: 300px;
+	.border-radius(20px);
+	.box-shadow(5px, 5px, 6px, 0.3);
+	.transition(all, 0.5s, ease-in);
+	.reflect(20%, 0.2);
+}
+
+img:hover {
+	.transform(5deg, 0.5, 1deg, 0px);
+}
+
+img:active {
+	opacity: 0.5;
+}
+
+a:before {
+	content:"😎 ";
+}
+
+a:visited {
+	color:green;
+}
