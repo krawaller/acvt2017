@@ -6,33 +6,44 @@
   margin-right: 10%;
   margin-left: 10%;
 }
+img:hover {
+  transform: rotate(180deg);
+}
 body {
   background-color: #25383C;
 }
 header {
   color: #63631c;
 }
-div {
-  overflow: hidden;
+header {
+  transition: 3s ease;
+}
+header:hover {
+  color: #ffffff;
 }
 h1 {
   color: #63631c;
 }
+p {
+  color: red;
+}
+nav {
+  text-align: left;
+}
 li {
-  align: margin-left;
+  text-align: justify;
   color: #000000;
 }
 img {
   max-width: 100%;
   max-height: 100%;
-}
-nav {
-  color: #63631c;
+  overflow: hidden;
 }
 a,
 .link {
   color: #428bca;
+  text-align: left;
 }
 a:hover {
-  color: #1f496e;
+  color: #1b292c;
 }
