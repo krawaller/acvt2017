@@ -140,12 +140,13 @@ table {
 /*****  Patriks CSS *****/
 
 body {
-    background-color:#333;
+    background-color: #333;
 }
 
-h1{
+h1 {
     font-size: 2em;
     padding: 0.5em 0;
+    animation: h1stuff 2s infinite;
 }
 
 h2 {
@@ -158,9 +159,19 @@ p {
     padding: 0.5em 0;
 }
 
+
+/* Mixin */
+
+.border-radius (@radius: 20px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
 img {
     height: 40%;
     width: 40%;
+    .border-radius();
 }
 
 li {
@@ -168,16 +179,67 @@ li {
 }
 
 a {
-    color: dodgerblue
+    color: dodgerblue;
+    font-size: 1.2em;
+    transition: font-size 0.5s ease, color 1s ease;
 }
 
 a:visited {
-    color: skyblue
+    color: dodgerblue;
+}
+
+a:hover {
+    color: firebrick;
+    font-size: 3em;
 }
 
 #wrapper {
     width: 70%;
     margin: 0 auto;
-    color:white;
+    color: white;
     text-align: center;
+}
+
+#imgbox {
+    position: absolute;
+    left: 30%;
+}
+
+#stugimg {
+    margin-right: 40%;
+    animation: example 0.1s infinite;
+}
+
+
+/* Animatinos */
+
+@keyframes example {
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    50% {
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+@keyframes h1stuff {
+    0% {
+        transform: rotate(0deg);
+    }
+    95% {
+        transform: rotate(0.5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.para {
+    padding-top: 30%;
 }
