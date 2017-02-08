@@ -1,0 +1,45 @@
+.small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+.big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 1000px;
+  height: 1000px;
+}
+h1 {
+  background-color: #8B4513;
+  color: #a9a9a9;
+  padding: 15px;
+  text-align: center;
+}
+p {
+  background-color: #8B4513;
+  color: #a9a9a9;
+  padding: 5px;
+}
+body {
+  background-color: #A0522D;
+}
+b {
+  color: #a9a9a9;
+}
+img {
+  padding: 15px;
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  background-color: #A0522D;
+}
+li {
+  color: #a9a9a9;
+}

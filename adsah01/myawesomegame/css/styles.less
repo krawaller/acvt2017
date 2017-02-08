@@ -1,0 +1,52 @@
+@background-color: #8B4513;
+@body-color: #A0522D;
+@text-color: #a9a9a9;
+
+.circle(@size: 25px){
+  background-color: #4CAF50;
+  border-radius: 100%;
+
+  width: @size;
+  height: @size;
+}
+
+.small-circle{
+  .circle
+}
+
+.big-circle{
+  .circle(1000px)
+}
+h1{
+  background-color: @background-color;
+  color: @text-color;
+  padding: 15px;
+  text-align: center;
+}
+p{
+  background-color: @background-color;
+  color: @text-color;
+  padding: 5px;
+}
+body{
+  background-color: @body-color;
+}
+
+b{
+  color: @text-color;
+}
+img{
+  padding: 15px;
+  .big-circle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  background-color: @body-color;
+}
+
+li{
+  color: @text-color;
+}
