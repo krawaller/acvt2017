@@ -1,0 +1,16 @@
+body {
+  background-color: #eaeff2;
+  text-align: center;
+}
+.wrapper {
+  text-align: center;
+  margin: 10px auto;
+  width: 50%;
+}
+p:before {
+  content: "♫";
+  color: #eaeff2;
+}
+p:after {
+  content: "♫";
+}
