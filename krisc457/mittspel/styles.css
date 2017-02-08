@@ -1,11 +1,25 @@
 body {
   background-color: #ffff72;
 }
+div {
+  text-align: center;
+}
 body {
   text-align: center;
 }
-#instantexample,
-#transitionexample {
+img {
+  margin-bottom: 30px;
+}
+h1 {
+  background-color: crimson;
+}
+h1 {
+  transition: 1s ease;
+}
+h1:hover {
+  background-color: green;
+}
+#instantexample {
   margin: 0 auto;
   height: 100px;
   width: 100px;
@@ -13,6 +27,50 @@ body {
   margin-top: 50px;
 }
 #instantexample:hover {
-  transform: rotate(45deg);
-  transition: transform 1s ease;
+  transform: rotate(360deg);
+  transition: transform 4s ease;
+}
+img:hover {
+  transform: rotate(360000deg);
+  transition: transform 300s ease;
+}
+@keyframes colorcycle {
+  0% {
+    background-color: #ffdbdb;
+  }
+  33% {
+    background-color: #ffb7fd;
+  }
+  66% {
+    background-color: #e994ff;
+  }
+  100% {
+    background-color: #ffdbdb;
+  }
+}
+body {
+  animation: colorcycle 10s infinite;
+}
+body {
+  animation: colorcycle 20s infinite;
+}
+head {
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 25px;
+}
+@keyframes slide-up {
+  from {
+    padding-top: 200px;
+    opacity: .25;
+    line-height: 80px;
+  }
+  to {
+    padding-top: 0;
+    opacity: 1;
+    ine-height: 25px;
+  }
+}
+.slide-up {
+  animation: slide-up 3s;
 }
