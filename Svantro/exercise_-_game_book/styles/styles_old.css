@@ -1,0 +1,25 @@
+body {
+	width: 500px; 
+	margin: 0 auto;
+}
+
+img {
+	max-width: 500px;
+	max-height: 300px;
+}
+
+a:before {
+	content:"😎 ";
+}
+
+a:visited {
+	color:green;
+	text-decoration: line-through;
+}
+a:hover {
+	color:pink;
+	cursor: all-scroll;
+}
+a:active{
+	color:khaki;
+}
