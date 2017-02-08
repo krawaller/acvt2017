@@ -2,6 +2,23 @@
   font-family: apocalypse;
   src: url('apocalypse.ttf');
 }
+@keyframes textpulse {
+  0% {
+    font-size: 1.5em;
+  }
+  25% {
+    font-size: 2em;
+  }
+  50% {
+    font-size: 1.5em;
+  }
+  75% {
+    font-size: 2em;
+  }
+  100% {
+    font-size: 1.5em;
+  }
+}
 img {
   height: 300px;
 }
@@ -51,4 +68,9 @@ h1:hover {
 }
 p strong {
   font-size: 25px;
+}
+h2 {
+  animation-name: textpulse;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
