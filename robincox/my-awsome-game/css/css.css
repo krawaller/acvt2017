@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 .wrapper {
-  width: 50%;
+  width: 65%;
   margin: auto;
   padding: 10px;
   text-align: left;
@@ -55,6 +55,8 @@ a:hover {
   animation-name: colorflash;
   animation-duration: 0.2s;
   animation-iteration-count: 1;
+  
+  color: #ff0066;
 }
 
 @keyframes colorflash {
