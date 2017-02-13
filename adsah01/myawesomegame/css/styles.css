@@ -37,8 +37,8 @@
 .big-circle {
   background-color: #4CAF50;
   border-radius: 100%;
-  width: 750px;
-  height: 750px;
+  width: 600px;
+  height: 600px;
 }
 h1 {
   color: #67AF4C;
@@ -69,8 +69,8 @@ img {
   padding: 15px;
   background-color: #4CAF50;
   border-radius: 100%;
-  width: 750px;
-  height: 750px;
+  width: 600px;
+  height: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
