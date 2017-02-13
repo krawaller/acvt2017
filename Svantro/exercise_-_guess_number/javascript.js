@@ -8,19 +8,17 @@ function runGame() {
 	var amountOfGuesses = 0;
 
 	while(true) {
-		console.log("start of guessing loop");
-
 		var message;
 		switch(amountOfGuesses) {
 			case 0:
-				message = "Enter your guess";
-			break;
+				message = "Enter your guess: ";
+				break;
 			case 1:
-				message = "Wrong! You have two more guesses. Enter your guess";
-			break;
+				message = "Wrong! You have two more guesses. Enter your guess: ";
+				break;
 			case 2:
-				message = "Wrong! You have one last guess. Enter your guess";
-			break;
+				message = "Wrong! You have one last guess. Enter your guess: ";
+				break;
 		}
 
 		guess = parseInt(prompt(message));
@@ -28,7 +26,7 @@ function runGame() {
 		if(guess <= 10 && guess >= 1) {
 			if(guess == randomNumber) {
 				if(amountOfGuesses == 0) {
-					alert("You won on the first guess! Impressive.");
+					alert("You won on the first guess! \"Impressive\".");
 				} else {
 					alert("You won! (" + (amountOfGuesses + 1) + " guesses)");
 					break;
