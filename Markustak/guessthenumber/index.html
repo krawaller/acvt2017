@@ -1,0 +1,43 @@
+<!DOCTYPE html/>
+
+<html>
+<head>
+	<title>Interactive adventure!</title>
+</head>
+<body>
+<header><div id="animationexample"> <h1>ADVENTURE</h1></div> </header>
+<main>
+<script>
+var guess;
+var i = 0;
+var randomNumber;
+	while(true){
+		randomNumber = 1;
+		i++;
+		guess = parseInt(prompt("Enter your guess"));
+		if(guess==null)
+			break;
+		if(guess==randomNumber){
+			alert("Rätt!");
+			if (!confirm('Spela igen?')) {
+    		break;
+			} else {
+   			// Do nothing!
+			}
+		}
+		else{
+			alert ("fel!");
+		}
+		if(i==3){
+			alert("Tre gissningar!");
+			if (!confirm('Spela igen?')) {
+    		break;
+			} else {
+   			// Do nothing!
+			}
+		}
+	}
+</script>
+</main>
+</body>
+</html>
