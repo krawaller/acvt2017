@@ -55,7 +55,7 @@ var shops = {
 function costOfRecipe(recipe, shops){
 	var recipeKeys = Object.keys(recipe);
 	var billigast = 0;
-
+	var cheapestStore = "";
 	for(var k in shops){
 		var totalt = 0;
 		for(var i=0; i < recipeKeys.length; i++){
@@ -68,10 +68,11 @@ function costOfRecipe(recipe, shops){
 			}	
 		}
 		if(totalt < billigast || billigast == 0) {
+				cheapestStore = k;
 				billigast = totalt;		
 		}
 	}
-	return billigast;
+	return billigast+" "+cheapestStore;
 }
 console.log("SuperOJ kostar "+costOfRecipe(superoj, shops));
 console.log("SuperSandwich kostar "+costOfRecipe(supersandwich, shops));
