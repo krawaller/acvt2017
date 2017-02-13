@@ -18,12 +18,12 @@ function runGame() {
 				break;
 			case 2:
 				message = "Wrong! You have one last guess. Enter your guess: ";
-				break;
+			break;
 		}
 
 		guess = parseInt(prompt(message));
-		
-		if(guess <= 10 && guess >= 1) {
+	
+			if(guess <= 10 && guess >= 1) {
 			if(guess == randomNumber) {
 				if(amountOfGuesses == 0) {
 					alert("You won on the first guess! \"Impressive\".");
