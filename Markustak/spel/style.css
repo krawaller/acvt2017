@@ -24,6 +24,7 @@ li:hover {
 }
 header {
   margin: 0;
+  width: 100%;
   margin-top: -25px;
   padding-top: 10px;
   height: 20%;
@@ -70,7 +71,7 @@ h1:hover {
 }
 #animationexample {
   height: 150px;
-  width: 1800px;
+  width: 100%;
   background-color: #eeeef7;
   position: relative;
   margin: 0 auto;
