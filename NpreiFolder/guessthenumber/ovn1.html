@@ -6,11 +6,13 @@
 <body>
 	
 <script>
+var superbreak = true;
+while (superbreak){
 
 var checker = false;
 var randomNumber =  3; //Math.floor(Math.random()*10)+1;
 var attempts = 0;
-
+var again = 'N';
 while (checker == false && attempts < 3 || again == 'Y'){
 		var answer = parseInt(prompt("Guess a random number between 1-10"));
 		if (answer == randomNumber){
@@ -22,7 +24,6 @@ while (checker == false && attempts < 3 || again == 'Y'){
 			attempts++;
 		}
 }
-
 if (checker == true) {
 	alert("We did it team!");
 }
@@ -39,9 +40,10 @@ if (again == 'Y') {
 if (again == 'N'){
 	checker = true;
 	alert("Farewell.");
+	superbreak = false;
 }
 
-
+}
 </script>
 
 </body>
