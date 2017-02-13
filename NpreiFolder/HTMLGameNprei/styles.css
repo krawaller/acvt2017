@@ -1,0 +1,90 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@font-face {
+  font-family: diablo;
+  src: url(diablo_h.ttf);
+}
+body {
+  background-image: url(img/loginscreen.jpg);
+  color: #a20000;
+  text-align: center;
+  font-family: diablo;
+}
+main {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 50%;
+}
+body img {
+  opacity: 0;
+  max-width: 100%;
+  ax-height: 100%;
+  -webkit-animation: fadein 3s;
+  border-radius: 5px;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+h1 {
+  opacity: 0;
+  -webkit-animation: fadein 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+p {
+  opacity: 0;
+  -webkit-animation: fadein 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+ul {
+  opacity: 0;
+  -webkit-animation: fadein 3s;
+  list-style-type: none;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+a {
+  color: red;
+  padding: 15px;
+}
+a:link,
+a:visited {
+  color: red;
+}
+a:hover {
+  color: white;
+}
+@keyframes loopit {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 470px;
+  }
+  50% {
+    top: 170px;
+    left: 470px;
+  }
+  75% {
+    top: 170px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+#animationexample > nav {
+  animation-name: looparound;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
