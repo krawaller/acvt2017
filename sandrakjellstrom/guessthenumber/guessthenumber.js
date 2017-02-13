@@ -1,3 +1,7 @@
+var again="Y";
+while(again==="Y") {
+
+
 var randomNumber = Math.floor(Math.random()*10)+1; //Här tar vi ut ett randomnummer
 var guess = parseInt(prompt("Guess a number between 1-10!")); //Promt för att den ska upp i promter. Här måste vi säkerställa att numret som skrivs in är ett nummer. 
 
@@ -23,4 +27,8 @@ while(x < 3 || guessCorrect){
 		var guess = parseInt(prompt("Not guite..." + (g-x) + " guess left. Enter a new guess"));
 		x++;
 	}
+}
+var again =prompt("Do you wanna play again? Y/N");
+
+
 }
