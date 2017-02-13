@@ -73,7 +73,7 @@ var shops = [ica, coop, willys];
 function costOfRecipe(recipe, store) {
 	var sum = 0;
 	var amount = 0;
-
+	var cost = 0;
 	for(var key in recipe) {
 		amount = recipe[key];
 		cost = store[key];
