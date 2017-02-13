@@ -1,0 +1,23 @@
+.parent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: black;
+}
+
+.child {
+	padding: 25px;
+	flex: 1;
+}
+
+#left {
+	background-color: gray;
+}
+
+#right {
+	background-color: darkgray;
+}
