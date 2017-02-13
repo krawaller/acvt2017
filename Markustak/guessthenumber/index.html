@@ -10,9 +10,8 @@
 <script>
 var guess;
 var i = 0;
-var randomNumber;
+var randomNumber = Math.floor(Math.random()*10)+1;
 	while(true){
-		randomNumber = 1;
 		i++;
 		guess = parseInt(prompt("Enter your guess"));
 		if(guess==null)
@@ -20,6 +19,7 @@ var randomNumber;
 		if(guess==randomNumber){
 			alert("Rätt!");
 			if (!confirm('Spela igen?')) {
+			randomNumber = Math.floor(Math.random()*10)+1;
     		break;
 			} else {
    			// Do nothing!
@@ -31,6 +31,7 @@ var randomNumber;
 		if(i==3){
 			alert("Tre gissningar!");
 			if (!confirm('Spela igen?')) {
+			randomNumber = Math.floor(Math.random()*10)+1;
     		break;
 			} else {
    			// Do nothing!
