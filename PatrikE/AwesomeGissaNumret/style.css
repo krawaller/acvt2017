@@ -158,7 +158,11 @@ h2 {
     animation: h2stuff 0.1s ease infinite;
 }
 
-#hidemain {
+#hidewin {
+    display: none;
+}
+
+#hidegameover {
     display: none;
 }
 
