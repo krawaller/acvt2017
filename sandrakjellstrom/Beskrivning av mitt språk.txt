@@ -1,0 +1,14 @@
+//Kommentar
+K: //Attributet Kön
+k=kvinna
+m=man
++ //Skiljer på två olika attribut och attributvärden
+: //Skiljet mellan attribut och värden.
+. //Skiljetecken mellan olika objekt
+.. //Här får objektet barn
+| | //Början och slut på min kod
+"VERSALER" //typ
+
+
+
+|"FAMILJ".."BARN1"K:m."BARN2"K:k|

@@ -1,0 +1,4 @@
+HTML : 4  (Har inte skrivit särskilt mycket HTML)
+CSS  : 2  (Har skrivit ännu lite mindre CSS)
+jS   : 5  (Gjorde hela CodeAcademys grundläggande JS-kurs udner hösten och skrivit en del web)
+WTC  : 10 (Mycket intresserad över möjligheten att bygga i praktiken vad som helst i webläsare)

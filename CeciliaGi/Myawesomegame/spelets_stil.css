@@ -1,0 +1,54 @@
+img {
+  border-width: 3 px;
+  border-color: white;
+  border-style: dotted;
+}
+.hej {
+  font-size: 30px;
+}
+strong {
+  color: pink;
+  animation-name: bla;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bla {
+  0% {
+    color: red;
+  }
+  25% {
+    color: purple;
+  }
+  50% {
+    color: magenta;
+  }
+  75% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+a {
+  color: pink;
+}
+h1 {
+  font-family: Gill Sans Nova Ultra Bold;
+  transition: color 5s ease;
+}
+h1:hover {
+  color: white;
+  transition: color 1s ease;
+}
+h2 {
+  color: white;
+}
+body {
+  background-color: grey;
+  font-family: serif;
+}
+div {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Times, serif;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+img:hover {
+  transform: rotate(180deg);
+}
+body {
+  background-color: #25383C;
+}
+header {
+  color: #63631c;
+}
+header {
+  transition: 3s ease;
+}
+header:hover {
+  color: #ffffff;
+}
+h1 {
+  color: #63631c;
+}
+p {
+  color: red;
+}
+nav {
+  text-align: left;
+}
+li {
+  text-align: justify;
+  color: #000000;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+a,
+.link {
+  color: #428bca;
+  text-align: left;
+}
+a:hover {
+  color: #1b292c;
+}

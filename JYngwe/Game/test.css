@@ -1,0 +1,49 @@
+strong {
+  margin-left: auto;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(img/cave2.png);
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+}
+:visited {
+  color: #ff0000;
+}
+a:hover ~ #cf {
+  opacity: 1;
+}
+#cf {
+  height: 281px;
+  width: 450px;
+  margin: auto;
+}
+#cf img {
+  position: absolute;
+  left: 40%;
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#cf img.bottom {
+  opacity: 0;
+}
+#cf:hover img.bottom {
+  opacity: 1;
+}
+#cf:hover img.top {
+  opacity: 0;
+}

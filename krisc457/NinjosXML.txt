@@ -1,0 +1,1 @@
+<Ninja snabbhet="100" tysthet="100"><Ninjo snabbhet="65" tysthet="75"><Ninjanama snabbhet="20" tysthet="15"></Ninjanama></Ninjo></Ninja>

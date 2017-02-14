@@ -1,0 +1,66 @@
+@maincolor:#d6909c;
+
+body {
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: @maincolor;
+
+}
+titel {
+  color: pink;
+  font-size: 30px;
+}
+h1 {
+  color: pink;
+  font-size: 70px;
+  animation-name:animation;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+}
+img {
+  style: width:300px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform 1s ease;
+}
+h2 {
+  font-size: 30px;
+  color: #ed163b;
+}
+p {
+  font-size: 20px;
+  color: #673AB7;
+}
+li {
+  font-size: 20px;
+  color: #13dd6f;
+  transition: transform 1s ease;
+ 
+}
+ul {
+  font-size: 50px;
+  color: #13dd6f;
+  display:inline-block;
+  margin-top: auto;
+}
+img:hover {
+    transform: rotate(360deg);
+	
+}
+li:hover{
+transform: rotate(40deg);
+}
+
+@keyframes animation {
+0% {
+margin-left:0px;
+}
+50%{
+margin-left:300px;
+}
+  }
+
+
+

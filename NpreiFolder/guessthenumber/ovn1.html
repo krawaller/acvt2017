@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head></head>
+<html>
+<title></title>
+<body>
+	
+<script>
+var superbreak = true;
+while (superbreak){
+
+var checker = false;
+var randomNumber =  3; //Math.floor(Math.random()*10)+1;
+var attempts = 0;
+var again = 'N';
+while (checker == false && attempts < 3 || again == 'Y'){
+		var answer = parseInt(prompt("Guess a random number between 1-10"));
+		if (answer == randomNumber){
+			checker = true;
+			alert("Correct!");
+		}
+		else{
+			alert("Wrong.");
+			attempts++;
+		}
+}
+if (checker == true) {
+	alert("We did it team!");
+}
+
+if (checker == false && attempts == 3) {
+	alert("We failed team!");
+}
+var again = prompt("Try again? (Y/N)");
+if (again == 'Y') {
+	attempts = 0;
+	checker = false;
+	alert("Good luck.");
+}
+if (again == 'N'){
+	checker = true;
+	alert("Farewell.");
+	superbreak = false;
+}
+
+}
+</script>
+
+</body>
+</html>
+
+

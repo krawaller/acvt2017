@@ -1,0 +1,58 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+  <script>
+  var randomNumber = Math.floor(Math.random()*10)+1;
+  var raknare =0;
+  while (raknare<3) {
+    var guess = prompt("Enter your guess!");
+
+    var forsokIgen;
+    var bekrafta
+
+      if(guess!=randomNumber){
+          alert("WRONG");
+          raknare++;
+          if(raknare==3){
+            bekrafta = confirm("Vill du spela igen?");
+            if(bekrafta==true){
+              randomNumber = Math.floor(Math.random()*10)+1;
+              raknare=0;
+            }
+            else{
+              alert("Chicken!")
+              break;
+            }
+          }
+
+      } else {
+          alert("Korrekt");
+          bekrafta = confirm("Vill du spela igen?");
+          if(bekrafta==true){
+            randomNumber = Math.floor(Math.random()*10)+1;
+            raknare=0;
+          }
+            else{
+              alert("Chicken!")
+              break;
+            }
+          }
+
+      }
+
+
+
+
+
+
+
+
+
+  </script>
+  </head>
+
+
+
+</html>

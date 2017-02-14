@@ -1,0 +1,118 @@
+@rubrikcolor: 0C083B;
+@var: #eeeef7;
+
+#lista{
+	margin-top: 30px;
+	list-style-type: none;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: @var;
+
+  &:hover{
+    background-color: fadeout(@var, 50%)
+  }
+
+}
+li{
+	color:@rubrikcolor;
+}
+a {
+	text-decoration: none;
+	color: @rubrikcolor;
+}
+a:visited{
+	color:#0C083B;
+}
+li:hover{
+	transform: scale(1.2,1.2);
+	transition:transform, .5s ease;
+}
+header{
+	margin:0;
+	width: 100%;
+	margin-top: -25px;
+	padding-top: 10px;
+	height: 20%;
+	border: 20px;
+	background-color: #eeeef7;
+}
+h1{
+	border:5px solid black;
+	color: @rubrikcolor;
+	font-family: Arial;
+	display: inline-block;
+	margin-left: 20;
+	margin-top: 40px;
+}
+h1:hover{
+	transform: rotate(45deg);
+	transition: transform 1s ease;
+}
+@keyframes weee{
+	0% {
+	    top: 0;	
+	    left: 0;
+	}
+	25% {
+	    top: 0;
+	    left: 1200px;
+	}
+	50% {
+	    top: 50px;
+	    left: 1200px;
+	}
+	75% {
+	    top: 50px;
+	    left: 0px;
+	}
+	80%{
+		top:0;
+		left:0;
+	}
+	100% {
+	    top: 0;
+	    left: 0;
+	}
+}
+#animationexample {
+    height: 150px;
+    width: 100%;
+    background-color: #eeeef7;
+    position: relative;
+    margin: 0 auto;
+}
+#animationexample > h1 {
+    position: relative;
+    animation-name: weee;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+img{
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+main{
+	width: 600px;
+	height: auto;
+	margin:0 auto;
+}
+p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 50px;
+  line-height: 45px;
+  padding-top: 0px;
+  padding-right: 4px;
+  padding-left: 3px;
+}
+p{
+	text-align: justify;
+}
+div{
+	display: inline-block;
+}
+

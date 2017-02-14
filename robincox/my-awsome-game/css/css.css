@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+.wrapper {
+  width: 65%;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+}
+img {
+  width: 100%;
+  
+  animation-name: staticBlink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+
+h2,
+h3,
+p {
+  color: #ffffff;
+}
+
+p {
+	
+  text-shadow: 0px 1px #909090;
+	
+}
+
+h1 {
+	
+	font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    color: #bb0022;
+    text-shadow: 1px 1px #ff0000;
+    font-size: 5rem;
+    margin: 5px 0;
+    opacity: 0.7;
+	
+}
+
+p, a, h2, h3 {
+	
+	font-family: 'Sahitya', serif;
+	
+}
+
+a {
+  text-decoration: none;
+  color: #990044;
+}
+a:hover {
+  animation-name: colorflash;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  
+  color: #ff0066;
+}
+
+@keyframes colorflash {
+  
+  75% {
+    color: #330011;
+  }
+  100% {
+    color: #ff0066;
+  }
+  
+}
+
+@keyframes staticBlink {
+  0% {
+    opacity: 1.0;
+  }
+  13% {
+    opacity: 0.9;
+  }
+  21% {
+    opacity: 0.75;
+  }
+  36% {
+    opacity: 0.8;
+  }
+  40% {
+    opacity: 0.68;
+  }
+  43% {
+    opacity: 1.0;
+  }
+  61% {
+    opacity: 0.87;
+  }
+  65% {
+    opacity: 0.74;
+  }
+  71% {
+    opacity: 0.68;
+  }
+  80% {
+    opacity: 0.88;
+  }
+  100% {
+    opacity: 0.96;
+  }
+}

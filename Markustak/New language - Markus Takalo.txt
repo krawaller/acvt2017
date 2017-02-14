@@ -1,0 +1,38 @@
+Academy web course response repo, spring 2017
+
+
+[string=Farfar,(ålder,90)(kön,man):[String:far,(ålder,57)(kön,man)][String:jag,(ålder,28)(kön,man)]];
+
+
+FÖRKLARING
+
+[typ=namn,(atribut,atributvärde)(atribut2,atribut2värde)]
+
+Objekt skapas med att först ange typ och därefter namnet på objektet 
+
+e.g
+[String=myString]
+
+Atribut anges efter "," och sedan i "()" där man först anger atribut typ och sedan atributvärde och allt avslutas med "]". 
+Om objekt saknar atribut men kommer tilldelas detta anges atributnamn men inget värde.
+Om objektet inte kommer tilldelas atribut avslutas beskrivningen med "," 
+
+e.g med atribut &atributvärde
+[Car=myCar, (make,Ford)]
+e.g med atribut & utan atributvärde
+[car=myCar, (make,)]
+e.g utan atribut &atributvärde
+[car=myCar,]
+
+Om objekt har barn deklareras detta med ":" före barnen och den avslutande"]" på föräldraobjektet läggs efter alla barnen har deklarerats. Raden avslutas med ";"
+e.g
+[Car=myCar, (make,Ford): [Wheel=frontwheel, (threaddeept,0.2]];
+
+
+-XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML--XML-
+<?xml version="1.0"?>
+
+<farfar alder="90" kon="man">
+	<far alder="57" kon="man"></far>
+	<jag alder="28" kon="man"></jag>
+</farfar>

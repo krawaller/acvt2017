@@ -1,0 +1,9 @@
+Bonde eller Ninja? Hur bekant är jag med HTML, CSS, JS? Ranka 1-10
+
+
+HTML = 1
+CSS  = 1
+JAVASCRIPT = 1
+INTRESSE FÖR ATT LÄRA MIG = 10	
+
+Mitt mål är att bli ninja på sikt!
