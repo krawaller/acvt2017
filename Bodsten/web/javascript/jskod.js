@@ -8,6 +8,7 @@ console.log("First page Exploration Quest", adventure.pages);
 var currentPage = "start";
 function renderPage(page){
   var page = adventure.pages[currentPage];
+  $("#headtitle").html(adventure.headtitle);
   $("#headline").html(page.title);
   $("#start").html(page.description);
   //$("#img").attr("imgage", page.image);

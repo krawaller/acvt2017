@@ -1,5 +1,6 @@
 var adventure = {
-  title: "Exploration Quest",
+
+  headtitle: "Exploration Quest",
   pages: {
     start: {
       title: "Starting point",
