@@ -48,14 +48,13 @@ var COOP = {
 }
 
 var stores = {
-  CITYGROSS: CITYGROSS,
-  ICA: ICA,
-  COOP: COOP
+ CITYGROSS: CITYGROSS,
+ ICA: ICA,
+ COOP: COOP
 }
 
-
-
-console.log(findCheapestStore(lasagne, stores));
+var stores1 = [ICA, CITYGROSS, COOP];
+console.log(stores1);
 
 function costOfRecipe(recipe, store) {
   var price = 0;
@@ -68,7 +67,7 @@ function costOfRecipe(recipe, store) {
 function findCheapestStore(recipe, stores) {
   var lowestPrice = 10000;
    var cheapestStore;
-  for (var store in stores ) {
+   for (var store in stores ) {
     var price = costOfRecipe(recipe, stores[store]);
     if (price < lowestPrice) {
          lowestPrice = price;
