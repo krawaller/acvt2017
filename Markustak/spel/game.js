@@ -27,7 +27,8 @@ var clickHandler = function(){
   var page = adventure.pages[currentPage];
   var linkObject = page.options[linkNumber];
   currentPage = linkObject.target;
-  renderPage();
-}
+  renderPage();}
 $("#lista").on("click","li",clickHandler);
 renderPage(adventure.pages[currentPage]);
+
+
