@@ -6,6 +6,10 @@ img {
 .hej {
   font-size: 30px;
 }
+li {
+  text-decoration: underline;
+  cursor: pointer;
+}
 strong {
   color: pink;
   animation-name: bla;
