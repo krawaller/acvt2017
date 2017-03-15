@@ -151,7 +151,7 @@ h1 {
     background: -webkit-linear-gradient(white, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color:blu
+    color: blu
 }
 
 h2 {
@@ -183,17 +183,29 @@ li {
     padding: 0.2em 0;
 }
 
-a {
+li {
     color: dodgerblue;
     font-size: 1.2em;
     transition: font-size 0.5s ease, color 1s ease;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    cursor:crosshair;
 }
 
 a:visited {
     color: dodgerblue;
 }
 
-a:hover {
+li:hover {
     color: firebrick;
     font-size: 3em;
 }
@@ -210,9 +222,19 @@ a:hover {
     left: 30%;
 }
 
-#stugimg {
+#noimgbox {
+    position: relative;
+    left: 0;
+}
+
+.stugimg {
     margin-right: 40%;
     animation: example 0.1s infinite;
+}
+
+.imgimg {
+    margin-right: 0;
+    animation: noanim 0s infinite;
 }
 
 
@@ -247,4 +269,8 @@ a:hover {
 
 .para {
     padding-top: 30%;
+}
+
+.paranopadd {
+    padding-top: 5%;
 }

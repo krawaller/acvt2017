@@ -3,22 +3,32 @@ strong {
 }
 body {
   height: 100%;
-  width: 100%;
+  max-width: 80%;
   margin: auto;
-  color: red;
+  color: white;
   font-size: 20px;
   text-align: center;
   background-image: url(img/cave2.png);
-  background-size: cover;
+  background-clip: content-box;
+  text-shadow: 2px 2px red;
+}
+p {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 50px;
 }
 ul {
   list-style-type: none;
 }
-:visited {
-  color: #ff0000;
+img {
+  max-width: 250px;
+  max-height: 250px;
 }
-a:hover ~ #cf {
-  opacity: 1;
+:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: #cccccc;
 }
 #cf {
   height: 281px;
