@@ -37,7 +37,7 @@ h4 {
     margin-left: 50%;
   }
 }
-#rub {
+#description {
   animation-name: looparound;
   animation-duration: 3s;
   animation-iteration-count: infinite;
